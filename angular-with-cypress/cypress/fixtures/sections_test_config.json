@@ -1,0 +1,215 @@
+{
+    "params": [
+        {
+            "observation": "section_1",
+            "row_type": "param_header_row",
+            "param_category": "section_1",
+            "units": "",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-A1",
+            "row_type": "value_row",
+            "param_category": "section_1",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-B1",
+            "row_type": "value_row",
+            "param_category": "section_1",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-C1",
+            "row_type": "value_row",
+            "param_category": "section_1",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-D1",
+            "row_type": "value_row",
+            "param_category": "section_1",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-E1",
+            "row_type": "value_row",
+            "param_category": "section_1",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-F1",
+            "row_type": "value_row",
+            "param_category": "section_1",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-G1",
+            "row_type": "value_row",
+            "param_category": "section_1",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "section_2",
+            "row_type": "param_header_row",
+            "param_category": "section_2",
+            "units": "",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-H2",
+            "row_type": "value_row",
+            "param_category": "section_2",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-I2",
+            "row_type": "value_row",
+            "param_category": "section_2",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Item-J2",
+            "row_type": "value_row",
+            "param_category": "section_2",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "section_1 Total",
+            "row_type": "total_count_row",
+            "param_category": "total_section_1",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "section_2 Total",
+            "row_type": "total_count_row",
+            "param_category": "total_section_2",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        },
+        {
+            "observation": "Balance",
+            "row_type": "total_count_row",
+            "param_category": "total_balance",
+            "units": "xyz",
+            "allowed_min_value": "",
+            "allowed_max_value": "",
+            "sample_correct_values": [
+                ""
+            ],
+            "sample_incorrect_values": [
+                ""
+            ]
+        }
+         
+    ]
+}
