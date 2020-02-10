@@ -1,27 +1,26 @@
 # Angular with Cypress
 
-This is a baisc Angular project with ag-grid. Main purose is to demonstrate UI test automation using Cypress.
+This is a basic Angular project with ag-grid. Main purose is to demonstrate UI test automation using Cypress.
 
-## Development server
+## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install` to install necessary dependeices.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Run
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng serve` to start the application.
 
-## Running unit tests
+## View UI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Open browswer and navigate to `http://localhost:4200/` to view the application.
 
-## Running end-to-end tests
+## Start Cypress
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `./node_modules/cypress/bin/cypress open` to bring up Cypress Test Runner UI
 
-## Further help
+## Running Cypress Automation tests
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+From the Cypress Test Runner UI, select respective test specs to run the test
+
