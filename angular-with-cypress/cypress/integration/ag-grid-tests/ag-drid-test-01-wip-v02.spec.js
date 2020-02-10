@@ -1,10 +1,6 @@
 /// <reference types="Cypress" />
 
-
-
 context('Ag Grid Page - Tests', () => {
-
-
 
   it('Test Scenario 01', () => {
 
@@ -65,10 +61,6 @@ context('Ag Grid Page - Tests', () => {
 
 
       })
-
-
-
-
 
   })
 

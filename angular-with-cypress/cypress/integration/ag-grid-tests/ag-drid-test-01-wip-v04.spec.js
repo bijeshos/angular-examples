@@ -309,16 +309,5 @@ context('Ag Grid Page - Tests', () => {
       })
 
   })
-
-  /*it('Test Scenario 03 : Column 1 : Total', () => {
-
-
-  })
-
-  it('Test Scenario 04 : Column 2 : Total', () => {
-
-
-  })*/
-
-
+ 
 })
