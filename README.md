@@ -1,5 +1,10 @@
 # Angular Examples
 
-This is a placeholder repository to keep a set of Angular examples.
+Examples in this repo at the moment:
 
-At the moment, only the skeleton version of the repo is committed. Examples would be committed soon. 
+## Angular with Cypress
+- This application contains a basic example wih ag-grid along with Cypress code to perform automated UI testing
+
+More examples to be added soon. 
+
+    
