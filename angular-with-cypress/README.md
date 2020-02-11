@@ -6,7 +6,6 @@ This is a basic Angular project with ag-grid. Main purose is to demonstrate UI t
 
 Run `npm install` to install necessary dependeices.
 
-
 ## Run
 
 Run `ng serve` to start the application.
