@@ -16,13 +16,23 @@ Open browswer and navigate to `http://localhost:4200/` to view the application.
 
 You should be able to see the UI as follows:
 
-![UI](./img/before-typing.png)
+![UI](./img/ui-before-typing.png)
 
 ## Start Cypress
 
 Run `npm run cypress:open` to bring up Cypress Test Runner UI
 
+Following UI should appear:
+
+![Cypress Testrunner UI](./img/cypress-runner-ui.png)
+
 ## Running Cypress Automation tests
 
 From the Cypress Test Runner UI, select respective test specs to run the test
 
+Results may looks as follows:
+
+
+![Result 1](./img/result-1.png)
+
+![Result 2](./img/result-2.png)
