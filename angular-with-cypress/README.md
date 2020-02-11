@@ -14,6 +14,10 @@ Run `ng serve` to start the application.
 
 Open browswer and navigate to `http://localhost:4200/` to view the application.
 
+You should be able to see the UI as follows:
+
+![UI](./img/before-typing.png)
+
 ## Start Cypress
 
 Run `npm run cypress:open` to bring up Cypress Test Runner UI
