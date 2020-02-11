@@ -33,6 +33,6 @@ From the Cypress Test Runner UI, select respective test specs to run the test
 Results may looks as follows:
 
 
-![Result 1](./img/result-1.png)
+![Result 1](./img/test-all-value-cell-typing-result.png)
 
-![Result 2](./img/result-2.png)
+![Result 2](./img/test-value-retrieval-result.png)
