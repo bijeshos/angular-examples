@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 
-context('Ag Grid Page - Tests', () => {
+context('Ag Grid Test - Value typing', () => {
 
-  it('Test Scenario 01', () => {
+  it('Type values in all cells', () => {
 
     cy.visit('/')
 
@@ -13,9 +13,7 @@ context('Ag Grid Page - Tests', () => {
     //get the header details
     cy.get('.ag-header-cell-label')
       .each(function ($el, index, $list) {
-        //cy.log('header-' + index + ':' + $el.find("span.ag-header-cell-text").text())
         header_text_array.push($el.find("span.ag-header-cell-text").text())
-        //cy.log('header-array: '+header)
       })
       .then(() => {
         cy.wrap(header_text_array).as('header_text_array')
@@ -27,15 +25,11 @@ context('Ag Grid Page - Tests', () => {
       })
 
 
-
     //get the cell value details
-
     cy.get('.ag-cell-value')
       .each(function ($el, index, $list) {
-        //cy.log('cell-value-' + index + ':' + $el.text())
         data_text_array.push($el.text())
         data_cell_handle_array.push($el)
-        //cy.wrap($el).dblclick().type('test-'+index)
       })
       .then(() => {
         cy.wrap(data_text_array).as('data_text_array')
@@ -47,19 +41,15 @@ context('Ag Grid Page - Tests', () => {
         cy.log('data_text_array: ' + $data_text_array)
       })
 
-    cy.wait(10000)
-
     cy.get('@data_cell_handle_array')
       .each(function ($el, index, $list) {
         //cy.wrap($el).dblclick({ force: true }).type('test-'+index)
-        //if (index % 3 == 2) {
-        cy.wait(1000)
-        cy.wrap($el)
-          .focus()
-          .click().type(index)
-        //}
-
-
+        if (index % 9 != 0) {
+          cy.log('index: '+index);
+          //cy.wait(100)
+          cy.wrap($el)
+            .click().type(index+'{enter}')
+        }
       })
 
   })

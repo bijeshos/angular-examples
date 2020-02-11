@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-context('Ag Grid Test - Retrieve Values', () => {
+context('Ag Grid Test - Value retrieval', () => {
 
   it('Get Header and Values', () => {
 
