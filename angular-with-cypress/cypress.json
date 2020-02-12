@@ -1,7 +1,11 @@
 {
     "baseUrl": "http://localhost:4200",
     "viewportWidth": 2000,
-    "viewportHeight": 1900
+    "viewportHeight": 1900,
+    "ignoreTestFiles": [
+        "**/__snapshots__/*",
+        "**/__image_snapshots__/*"
+      ]
        
        
 
