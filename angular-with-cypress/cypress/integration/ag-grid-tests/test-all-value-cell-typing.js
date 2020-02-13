@@ -43,10 +43,8 @@ context('Ag Grid Test - Value typing', () => {
 
     cy.get('@data_cell_handle_array')
       .each(function ($el, index, $list) {
-        //cy.wrap($el).dblclick({ force: true }).type('test-'+index)
         if (index % 9 != 0) {
           cy.log('index: '+index);
-          //cy.wait(100)
           cy.wrap($el)
             .click().type(index+'{enter}')
         }
