@@ -3,7 +3,6 @@
 context('Canvas - Visual Test', () => {
 
   it('Visual Test : Scenario 01', () => {
-
     //cy.viewport(1200,1500)
     cy.visit('/')
       .then(()=>{
